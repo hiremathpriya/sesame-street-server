@@ -20,7 +20,7 @@ const monsters = [
         id:3,
         name:"cookie",
         image:"cookie.png",
-        imageUrl:"/images/cookie.png"
+        imageUrl:"http://priya-sesame-street-server.herokuapp.com/images/cookie.png"
     }
 ]
 
