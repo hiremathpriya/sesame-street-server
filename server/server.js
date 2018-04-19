@@ -11,7 +11,7 @@ const server = express()
 
 server.use(bodyParser.json())
 server.use(cors({origin: 'http://localhost:8080'}))
-server.use(cors({origin: 'https://priya-sesame-street-server.herokuapp.com/monsters'}))
+server.use(cors({origin: 'http://localhost:3000'}))
 server.use(express.static(path.join(__dirname, '../public')))
 
 server.use('/monsters', getMonsters)
