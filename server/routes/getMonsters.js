@@ -7,12 +7,14 @@ const monsters = [
     {
         id: 1,
          name:"elmo",
-         image:"elmo.png"
+         image:"elmo.png",
+         imageUrl: "/images/elmo.png"
     },
     {
         id:2,
         name:"cookiemonster",
-        image:"cookiemonster.png"
+        image:"cookiemonster.png",
+        imageUrl: "/images/cookiemonster.png"
     }
 ]
 
