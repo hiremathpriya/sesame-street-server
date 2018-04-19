@@ -15,6 +15,12 @@ const monsters = [
         name:"cookiemonster",
         image:"cookiemonster.png",
         imageUrl: "/images/cookiemonster.png"
+    },
+    {
+        id:3,
+        name:"cookie",
+        image:"cookie.png",
+        imageUrl:"/images/cookie.png"
     }
 ]
 
