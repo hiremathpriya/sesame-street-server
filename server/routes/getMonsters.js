@@ -18,7 +18,7 @@ const monsters = [
 
 router.get('/', function (req, res) {
 
-    console.log('received request for /project');
+    console.log('received request for /monsters');
     res.json(monsters);
 
 })
@@ -26,7 +26,7 @@ router.get('/', function (req, res) {
 router.get('/:name', function (req, res) {
 
     const name = req.params.name;
-    console.log('received request for /project/' + name);
+    console.log('received request for /monsters/' + name);
 
     const monster = monsters.find(monster => {
         if(monster.name === name){
