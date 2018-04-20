@@ -8,13 +8,13 @@ const monsters = [
         id: 1,
          name:"elmo",
          image:"elmo.png",
-         imageUrl: "/images/elmo.png"
+         imageUrl: "http://priya-sesame-street-server.herokuapp.com/images/elmo.png"
     },
     {
         id:2,
         name:"cookiemonster",
         image:"cookiemonster.png",
-        imageUrl: "/images/cookiemonster.png"
+        imageUrl: "http://priya-sesame-street-server.herokuapp.com/images/cookiemonster.png"
     },
     {
         id:3,
